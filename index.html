@@ -1,2 +1,72 @@
-<h1> Hello world<h1/>
-Yoooo!!!!
+<!DOCTYPE html>
+<html>
+<head>
+	<title>NLP Project</title>
+	<link rel="stylesheet" type="text/css" href="nlp.css">
+</head>
+<body>
+    <div id="left" style="border: 0px solid #000;list-style-type: none;text-decoration: none;width: 20%;height: 600px;background: #020024;">
+
+    	<h2 style="width: auto;margin: 0px;height: 40px;border: 0px solid #000;padding: 15px;background: #136ba4;color: #fff;text-align: center; font-family: viga; font-size: 12pt;">Disaster Tweet - Natural Language Processing</h2>
+    	<ul style="list-style-type: none;text-decoration: none;">
+    		<a href="#" style="text-decoration: none; color: #fff;"><li style="padding: 10px;border: 0px solid #000;text-decoration: none;">Abstract</li></a>
+    		<a href="#" style="text-decoration: none; color: #fff;"><li style="padding: 10px;border: 0px solid #000;text-decoration: none;">Acknowledgements</li></a>
+    		<a href="#" style="text-decoration: none; color: #fff;"><li style="padding: 10px;border: 0px solid #000;text-decoration: none;">Loading Dataset</li></a>
+    		<a href="#" style="text-decoration: none; color: #fff;"><li style="padding: 10px;border: 0px solid #000;text-decoration: none;">Analysis of the Data</li></a>
+    		<a href="#" style="text-decoration: none; color: #fff;"><li style="padding: 10px;border: 0px solid #000;text-decoration: none;">Modeling</li></a>
+    		<a href="#" style="text-decoration: none; color: #fff;"><li style="padding: 10px;border: 0px solid #000;text-decoration: none;">Checking the Final Model</li></a>
+    		<a href="#" style="text-decoration: none; color: #fff;"><li style="padding: 10px;border: 0px solid #000;text-decoration: none;">Conclusion</li></a>
+    	</ul>
+    </div>
+    		
+    <div id="right" style="position: relative; display: inline-block; left: 270px; top: -600px; border: 0px solid #000;list-style-type: none;text-decoration: none;width: 80%;height: 600px;background: #fff;">
+    	
+    	<div style="border: 1px solid #000; margin: 25px; position: relative; width: 95%; height: auto;">
+    		<h1 style="font-family: viga; font-size: 30pt; color: #020024;">Disaster Tweet - Natural Language Processing</h1>
+    		<h2 style="font-family: viga; font-size: 20pt;margin-top: 40px; margin-bottom: 40px; color: #020024;">Abstract</h2>
+    		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+    		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+    		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+    		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+    		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+    		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+    		<h2 style="font-family: viga; font-size: 20pt;margin-top: 40px; margin-bottom: 40px; color: #020024;">Acknowledgement</h2>
+    		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+    		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+    		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+    		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+    		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+    		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+    		<h2 style="font-family: viga; font-size: 20pt;margin-top: 40px; margin-bottom: 40px; color: #020024;">Loading Dataset</h2>
+    		<p>Dataset contained training and test set. Each consisted of three exploratory features (Keyword, location, text) with exception of the training set which had an additional predictor variable (target) for model training.</p>
+
+    		<button onclick="codeMenu()" id="cdbtn" style="position: relative;left: 950px; padding: 5px;">Code</button>
+
+    		<div id="code" style="position: relative; border: 0px solid #000; background: #ccc; width: 80%;height: auto;margin-top: 15px;margin-bottom: 15px; margin-left: 5px; border-radius: 5px;"><p style="position: relative; font-size: 10pt;padding: 8px; color: #000;">import pandas as pd<br>
+                               import numpy as np<br>
+                               test = pd.read_csv('test.csv')<br>
+                               train = pd.read_csv('train.csv')<br>
+                               train.head()</p>
+    		</div>
+
+    		<div style="position: relative; border: 1px solid #000; width: 80%;height: 300px;margin-top: 30px;margin-bottom: 30px; margin-left: 10%;">
+    			
+    		</div>
+    	</div>
+    </div>
+</body>
+
+<script type="text/javascript">
+	function codeMenu() {
+	var codeBtn = document.getElementById('cdbtn');
+	var navbar = document.getElementById('code');
+
+	if(navbar.style.height == "0px"){
+		navbar.style.height = "auto";
+	} else {
+		navbar.style.height = "0px";
+	}
+</script>
+</html>
