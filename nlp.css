@@ -1,0 +1,46 @@
+@font-face {
+	src:url(Open_Sans/OpenSans-SemiBold.ttf);
+	font-family: opensans;
+}
+
+@font-face {
+	src:url(Open_Sans/OpenSans-Light.ttf);
+	font-family: opensanslight;
+}
+
+@font-face {
+	src:url(Viga/Viga-Regular.ttf);
+	font-family: viga;
+}
+
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+body {
+    text-decoration: none;
+    list-style-type: none;
+    font-family: opensanslight;
+}
+
+body ul li a {
+	font-weight: bolder;
+}
+
+#left div {
+	border: 1px solid #000;
+	list-style-type: none;
+	width: 20%;
+	height: 600px;
+	background: red;
+}
+
+#left div ul {
+	border: 1px solid #000;
+	list-style-type: none;
+	text-decoration: none;
+	width: 20%;
+	height: 600px;
+	background: red;
+}
