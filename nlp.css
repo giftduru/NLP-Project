@@ -1,15 +1,15 @@
 @font-face {
-	src:url(Open_Sans/OpenSans-SemiBold.ttf);
+	src:url(OpenSans-SemiBold.ttf);
 	font-family: opensans;
 }
 
 @font-face {
-	src:url(Open_Sans/OpenSans-Light.ttf);
+	src:url(OpenSans-Light.ttf);
 	font-family: opensanslight;
 }
 
 @font-face {
-	src:url(Viga/Viga-Regular.ttf);
+	src:url(Viga-Regular.ttf);
 	font-family: viga;
 }
 
